@@ -116,7 +116,7 @@
             var params = {};
 
             var protocol = (window.location.protocol === 'https:') ? 'https:' : 'http:';
-            var baseURL  = 'api.twitter.com/1/';
+            var baseURL  = 'api.twitter.com/1.1/';
             var endpoint = '';
             
             // Override for Twitter-compatible APIs like Status.net

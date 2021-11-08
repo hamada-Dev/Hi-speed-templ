@@ -66,7 +66,7 @@ jQuery(document).ready(function() {
 	var wrapperWidth = jQuery("#wrapper").width();
 	//centering
 	jQuery("#wrapper").css({
-		"position": "absolute",
+		"position": "initial",
 		"top": windowHeight/2-wrapperHeight/1,
 		"left": windowWidth/2-wrapperWidth/2
 	});
